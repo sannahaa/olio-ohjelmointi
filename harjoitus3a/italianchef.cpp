@@ -12,7 +12,7 @@ string ItalianChef::getName()
 
 void ItalianChef::makePasta()
 {
-    cout<<"Chef "<< name<<" makes pasta"<< endl;
+    cout<<"Italian Chef "<< name<<" makes pasta"<< endl;
 }
 
 ItalianChef::~ItalianChef()

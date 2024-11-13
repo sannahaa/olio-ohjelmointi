@@ -15,6 +15,6 @@ int main()
     objItalianChef.makeSalad();
     objItalianChef.makeSoup();
     objItalianChef.makePasta();
-    cout<<"Name of the Italian Chef is "<< objItalianChef.getName()<< endl;
+    cout<<"name of the Italian Chef is "<< objItalianChef.getName()<< endl;
     return 0;
 }
