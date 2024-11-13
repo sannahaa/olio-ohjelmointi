@@ -2,7 +2,7 @@
 
 ItalianChef::ItalianChef(string n): Chef(n)
 {
-    cout<<"Italian Chef " << name << " konstruktori" <<endl;
+    cout<<"ItalianChef " << name << " konstruktori" <<endl;
 }
 
 string ItalianChef::getName()
@@ -17,5 +17,5 @@ void ItalianChef::makePasta()
 
 ItalianChef::~ItalianChef()
 {
-    cout<<"Italian Chef " << name << " destruktori" <<endl;
+    cout<<"ItalianChef " << name << " destruktori" <<endl;
 }
