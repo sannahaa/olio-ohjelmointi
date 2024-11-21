@@ -33,7 +33,7 @@ int main()
     // kekomuistiin
     // tuhoutuu automaattisesti
     unique_ptr<Student> objStudent=make_unique<Student>();
-    objStudent->setName("Sanna Haasiomaki");
+    objStudent->setName("Teppo Testi");
     objStudent->setStudentNumber(1234567);
     objStudent->setAverage(8.7);
     cout<<"Opiskelijan nimi: "<<objStudent->getName()<<endl;
