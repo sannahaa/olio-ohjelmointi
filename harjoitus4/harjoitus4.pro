@@ -4,8 +4,12 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        car.cpp \
         engine.cpp \
-        main.cpp
+        main.cpp \
+        wheel.cpp
 
 HEADERS += \
-    engine.h
+    car.h \
+    engine.h \
+    wheel.h

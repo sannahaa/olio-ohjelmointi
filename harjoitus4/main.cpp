@@ -1,9 +1,14 @@
+#include "car.h"
+
 #include <iostream>
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello World!" << endl;
+    Car objCar=Car("Toyota","Corolla");
+    objCar.setEngine();
+    objCar.setWheels();
+    objCar.printDetails();
     return 0;
 }
